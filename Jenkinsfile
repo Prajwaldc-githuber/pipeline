@@ -6,6 +6,7 @@ pipeline {
         sh '''
         sleep 10
         echo "This is Build stage"
+        '''
         }
         }
     stage ('Deploy'){
@@ -13,6 +14,7 @@ pipeline {
         sh '''
         sleep 10
         echo "This is Deploy stage"
+        '''
       }
     }
     stage ('Tset'){
@@ -20,6 +22,7 @@ pipeline {
         sh '''
         sleep 10
         echo "This is Test stage"
+        '''
         }
         }
         }
